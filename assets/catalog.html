@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Sea see you</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="social">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+    <a href="https://ua.linkedin.com/in/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+    <a href="https://github.com/" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+</div>
+
+<img class="img-responsive center-block" src="../img/logo.jpg" alt="logo"/>
+
+<hr>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../index.html">Главная</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle hov" data-toggle="dropdown" href="#">Каталог<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Наборы</a></li>
+                        <li><a href="#">Распродажа</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a class="hov" href="#">О нас</a></li>
+                <li><a class="hov" href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<hr>
+<div class="text-center">
+<h2>Каталог</h2>
+</div>
+<div class="container-fluid" id="catalog">
+    <div class="row">
+<div class="col-sm-4"><a class="single_image" href="../img/sea1.jpg" title="550 грн Размеры: 75А, 75В, 75С, 80А
+S, M"><img src="../img/sssea1.jpg" alt=""/></a></div>
+    <div class="col-sm-4"><a class="single_image" href="../img/sea1.jpg" title="550 грн Размеры: 75А, 75В, 75С, 80А
+S, M"><img src="../img/sssea1.jpg" alt=""/></a></div>
+    <div class="col-sm-4"><a class="single_image" href="../img/sea1.jpg" title="550 грн Размеры: 75А, 75В, 75С, 80А
+S, M"><img src="../img/sssea1.jpg" alt=""/></a></div>
+</div>
+</div>
+<button type="button" id="mybtn" class="btn center-block" data-toggle="modal" data-target="#exampleModal">Заказать</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Оформить заказ</h4>
+            </div>
+            <div class="modal-body">
+
+                <form id="form">
+
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">Имя:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number" class="control-label">Телефон:</label>
+                        <input type="text" class="form-control" id="phone-number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">Описание заказа:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                <button type="submit" class="btn" id="send">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="../fancy-box/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="../fancy-box/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
